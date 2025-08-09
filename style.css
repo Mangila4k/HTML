@@ -4,12 +4,14 @@
 }
 
 .main {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 100%;
+    min-height: 100vh;
     background: url(images/back.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,25 +22,6 @@
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 20%;
-}
-
-.navbar {
-    width: 96%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
-    z-index: 999;
-}
-
-.navbar .logo {
-    width: 160px;
-    cursor: pointer;
-    margin-top: 0%;
-    margin-left: -1%;
 }
 
 ul {
